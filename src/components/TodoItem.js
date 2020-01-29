@@ -1,0 +1,29 @@
+import React, { Component } from 'react';
+
+export default class TodoItem extends Component {
+  render() {
+    const { title, handleDelete, handleEdit, identify } = this.props;
+
+    return (
+      <li className="list-group-item text-capitalize 
+      d-flex justify-content-between my-2">
+        <h6>{title}</h6>
+        <div className="todo-id">
+          <h6 class="mx-2 text-uppercase text-white text-muted">
+            ID: {identify}
+          </h6>
+        </div>
+        <div className="todo-icon"> 
+          <span className="mx-2 text-success c-pointer" onClick={handleEdit}>
+            <i className="fas fa-pen"></i>
+          </span>
+
+          <span className="mx-2 text-danger c-pointer" onClick={handleDelete}>
+            <i className="fas fa-trash"></i>
+          </span>
+
+        </div>
+      </li>
+    );
+  }
+}

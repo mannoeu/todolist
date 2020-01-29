@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+button{
+  transition: .2s linear!important;
+}
+h3{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.c-pointer{
+  cursor: pointer;
+}
+.todo-id h6{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.todo-icon span i{
+  transition: .3s ease-in-out;
+}
+.todo-icon span:hover i{
+  transform: translateY(-5px) scale(1.2);
+}

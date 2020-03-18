@@ -32,5 +32,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "todolist",
+  "main": "index.js",
+  "repository": "https://github.com/mannoeu/todolist.git",
+  "author": "MANN03U <emmanuel_costasilva@hotmail.com>",
+  "license": "MIT"
 }
